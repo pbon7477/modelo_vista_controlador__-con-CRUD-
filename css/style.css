@@ -1,0 +1,55 @@
+
+body{
+    background:#222;
+    color:goldenrod;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.caja {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #8888882a;
+    margin-bottom: 20px;
+    padding: 10px 10px 60px;
+    background: #0000001f;
+}
+
+
+.vista1{
+    background: #ffffff69;
+    width: 80%;
+    margin:auto;
+    padding: 20px;
+    border-radius: 40px 2px 2px 40px;
+}
+
+table{
+    width: 80%;
+    table-layout:fixed;
+}
+
+
+
+th{
+    border:1px #ca3636 dashed;
+    background: #ca3636;
+    color:#fff;
+} 
+
+td{ 
+    border:2px solid #666;
+    background: #666;
+    color:#fff;    
+
+    white-space: nowrap; /*Evita que el texto se divida en varias lineas */
+    overflow: hidden;  /* oculta el texto que no cabe en la celda */
+    text-overflow: ellipsis;  /* muestra puntos suspencivos (...) para indicar texto truncado */
+
+ }
+
+ .id_table{    
+    width: 30px;       
+ }

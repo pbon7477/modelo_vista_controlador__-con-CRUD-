@@ -1,0 +1,142 @@
+
+
+body {
+    background:#333;
+    color:#fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    text-align:left;    
+    padding:10px 10px 0 10px;
+}
+
+.num_paginas{
+text-align: center;
+}
+
+table{
+  width:50%;   
+  margin: auto;
+  padding: 10px;
+ 
+}
+
+tr{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+        
+}
+
+th{
+    background:#222;
+    padding:10px;
+    
+    width: 100%;    
+    text-align: left;
+}
+
+td{        
+    padding:10px;
+    width: 177px;
+    height: 22px;    
+    border:1px dashed rgba(255, 255, 255, 0.250);
+}
+
+.regIn{
+    background:#589288;  
+    color:#fff;
+    
+}
+.reg{
+    background:#589288;  
+    color:#000;
+
+}
+.reg:hover{
+    background:#182730;
+    color:#ffffff;
+}
+
+.themp{
+    color: #222;
+    
+}
+
+
+input[type="button"]{
+    cursor: pointer;
+    
+}
+
+h1,h4, h5{    
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+    text-align: center;
+    padding: 0;
+    margin: 0 0 10px;
+    color:rgb(44, 217, 168)
+}
+
+h3{
+    text-align:center;
+    padding: 0;
+    margin: 0 0 10px;
+    color:rgb(97, 210, 230);
+}
+h4{
+    text-align:center;
+    padding: 0;
+    margin: 0 0 10px;
+    color:rgba(175, 238, 255, 0.486);
+}
+
+ul {
+    display: flex; 
+    justify-content: center;
+    list-style-type: none; 
+    margin-top: 10px;
+    padding: 0;  
+}
+
+li {
+    margin-right: 10px;
+}
+
+.idN{
+    width: 30px;
+}
+
+.btnDell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    background:#777;
+    
+}
+.btnAct{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    background:#777;
+    
+}
+
+
+footer{
+    display: flex;
+     justify-content: center;
+    align-content: center;
+   
+   
+}
